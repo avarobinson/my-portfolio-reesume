@@ -10,3 +10,58 @@ header {
 section {
   padding: 150px 0;
 }
+
+body {
+  font-family: Poppins;
+  color: gray;
+}
+
+.nav-link{
+  color: gray;
+}
+.nav-link:hover{
+  color: black;
+}
+.nav-link.active{
+  color: lightcoral;
+}
+
+.navbar-brand{
+  color: gray;
+}
+
+.navbar-brand:hover{
+  color: black;
+}
+
+.lead{
+  padding-top: 20px;
+}
+
+#navContainer{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.container{
+  max-width: 100%;
+}
+
+h1{
+  font-weight: 700;
+  color: gray;
+}
+
+.connect{
+  font-size:48px;
+  padding-right: 30px;
+  color: lightcoral;
+}
+
+.connect:hover{
+  color: pink;
+}
+
+#download-resume{
+  color: grey;
+}
