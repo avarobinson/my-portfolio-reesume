@@ -67,3 +67,32 @@ h1{
 #download-resume{
   color: grey;
 }
+
+.card-text{
+  font-size: 1.5vw;
+}
+
+.card-title{
+  font-size: 2vw;
+}
+
+.card{
+  border-radius: 0em;
+  border: 0px solid;
+}
+
+#project-label{
+  color: pink;
+}
+
+#project-descriptions{
+  color: black;
+  font-size: 14px;
+}
+
+#project-title-main{
+  margin-top: 100px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+}
