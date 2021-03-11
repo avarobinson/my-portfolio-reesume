@@ -111,7 +111,12 @@ a:hover{
 }
 
 /* About Page Stylig */
-
+.about-name{
+    font-size: 3.5vw;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 550;
+}
 #about{
     /* background-color: #E5E9EC; */
     background-color: white;
@@ -143,8 +148,8 @@ a:hover{
 }
 
 .skills-section{
-    margin-top: 10%;
-    text-align: center;
+    margin-top: 5%;
+    text-align:center;
 }
 
 #skills-title{
