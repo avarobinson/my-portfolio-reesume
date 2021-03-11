@@ -15,7 +15,7 @@ section {
 body {
   font-family: Circularstd, sans-serif;
   font-weight: 400;
-  color: gray;
+  color: black;
 }
 
 @font-face {font-family: "Circular Std Bold"; src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot"); src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff") format("woff"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold") format("svg"); }
@@ -23,6 +23,7 @@ body {
 
 .nav-link{
   color: white;
+  font-size: 20px;
 }
 
 .nav-link:hover{
@@ -58,7 +59,7 @@ body {
 
 h1{
   font-weight: 700;
-  color: gray;
+  color: black;
 }
 
 .connect{

@@ -66,7 +66,7 @@ a:hover{
 }
 
 .card-text{
-    color: gray;
+    color: black;
 }
 
 #hi-bitmoji{
@@ -82,8 +82,12 @@ a:hover{
     margin-bottom: auto;
 }
 
-#project-card-title{
-    color: #C3CDE6 !important;
+.project-card-title{
+    color: #D1B1CB !important;
+}
+
+.project-card-title:hover, .project-card-title:active{
+    color: #D1B1CB !important;
 }
 
 .home-grid{
