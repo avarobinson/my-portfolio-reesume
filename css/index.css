@@ -1,5 +1,5 @@
 #mainNav{
-    background-color:#4B8F8C;
+    background-color:white;
 }
 
 #home{
@@ -7,10 +7,11 @@
     background-color: white;
     margin-left: 10%;
     margin-right: 5%;
+    /* padding-top: 10%; */
 }
 
 #home-intro{
-    font-size: max(1.75vw, 20px);
+    font-size: max(1.5vw, 18px);
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -112,7 +113,7 @@ a:hover{
 
 /* About Page Stylig */
 .about-name{
-    font-size: 3.5vw;
+    font-size: max(3.5vw, 25px);
     text-align: center;
     margin-bottom: 30px;
     font-weight: 550;
@@ -122,6 +123,7 @@ a:hover{
     background-color: white;
     margin-left: 10%;
     margin-right: 10%;
+    /* padding-top: 10%; */
 }
 
 #about-headshot{
@@ -148,7 +150,7 @@ a:hover{
 }
 
 .skills-section{
-    margin-top: 5%;
+    /* margin-top: 10%; */
     text-align:center;
 }
 
@@ -182,4 +184,34 @@ a:hover{
     text-align: left;
     line-height: 30px;
     font-size: 16px;
+}
+
+#creative-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.creative-sub-title{
+    /* border: 2px solid #D1B1CB;
+    border-radius: .5em;
+    padding: 15px;
+    color: #D1B1CB; */
+    font-weight: 500;
+    font-size: 18px;
+    /* display: inline; */
+}
+
+.creative-grid {
+    margin-top: 2%;
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;  
+    grid-template-columns: 33.334% 33.334% 33.334%;	
+    margin-bottom: 5%;
+}
+
+.sunset-images{
+    max-width: 100%;
 }

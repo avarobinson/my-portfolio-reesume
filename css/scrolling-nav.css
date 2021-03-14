@@ -22,7 +22,7 @@ body {
 
 
 .nav-link{
-  color: white;
+  color: #4B8F8C;
   font-size: 20px;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .navbar-brand{
-  color:white !important;
+  color:#4B8F8C !important;
   opacity: 100%;
 }
 
