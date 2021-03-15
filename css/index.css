@@ -59,6 +59,7 @@
 a:link,
 a:visited,
 a:active {
+    color:#D1B1CB;
 }
 
 a:hover{
@@ -199,7 +200,7 @@ a:hover{
     padding: 15px;
     color: #D1B1CB; */
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     /* display: inline; */
 }
 
@@ -214,4 +215,89 @@ a:hover{
 
 .sunset-images{
     max-width: 100%;
+}
+
+/* Project Pages */
+.project-page{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.project-title{
+    text-align: center;
+    font-size: max(3.5vw, 40px);
+}
+
+.project-position{
+    text-align: center;
+    font-size: max(1.5vw, 25px);
+    font-weight: lighter;
+}
+
+.project-timeframe{
+    text-align: center;
+    font-size: max(1.5vw, 25px);
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.project-skills-title{
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-skills{
+    display: inline-block;
+}
+
+.project-skill{
+    border: 1px solid black;
+    border-radius: .5em;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: max(1vw, 15px);
+}
+
+.project-about-header{
+    margin-top:30px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-description-text{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+/* HCML */
+#hcml-images{
+    justify-content: center;
+    text-align: center;
+}
+#hcml-form{
+    max-width: 60%;
+    margin-bottom: 15px;
+}
+
+#hcml-pie{
+    max-width: 49%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#hcml-area{
+    max-width: 49%;
+    display: inline-block;
+    margin-bottom: 15px;
 }

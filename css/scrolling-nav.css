@@ -41,7 +41,33 @@ body {
 .navbar-brand{
   color:#4B8F8C !important;
   opacity: 100%;
+  width: 100%;
 }
+
+#navbar-logo{
+  height:7%;
+  width: 7%;
+  display: inline-block;
+}
+
+#navbar-logo-active{
+  height:7%;
+  width: 7%;
+  display: none;
+}
+
+#navbar-logo:hover{
+  height:7%;
+  width: 7%;
+  /* visibility: hidden; */
+}
+
+/* #navbar-logo-active:hover{
+  height:7%;
+  width: 7%;
+  display: inline-block;
+} */
+
 
 .navbar-brand:hover{
   /* color: #C3CDE6 !important; */
