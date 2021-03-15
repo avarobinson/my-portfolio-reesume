@@ -8,26 +8,33 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Scrolling Nav - Start Bootstrap Template</title>
+  <link rel="icon" type="image/png" href="/images/AVA-removebg-preview.png" sizes="16x16">
+
+  <title>Ava Robinson</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100&display=swap" rel="stylesheet">
   <link href="css/fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
+  <link href="//db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std" rel="stylesheet" type="text/css"/>
 
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-white fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
     <div class="container" id="navContainer">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">AVA ROBINSON</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img id="navbar-logo" src="images/logo.png" alt="logo">
+        <!-- <img id="navbar-logo-active" src="images/logo-active.png" alt="logo">  -->
+      </a>
       <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,11 +44,17 @@
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#connect">Connect</a>
+            <a class="nav-link js-scroll-trigger" href="/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="images/AvaRobinsonResume2020.pdf">Resume</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#connect">Connect</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="images/AvaRobinsonResume2020.pdf">Resume</a>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -54,132 +67,105 @@
     </div>
   </header> -->
 
+
   <section id="home">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto" style="text-align: center;">
-          <h1>Hi, I'm Ava.</h1>
-          <p class="lead">I'm a senior computer science student at Northwestern University, also pursuing a certificate in Design and a certificate in Integrated Marketing and Communications.
-           <br>
-           <br>
-            I'm passionate about using my technical, design, and interpersonal skills for creative projects.</p>
+      <!----- Intro ----->
+        <div class="home-main">
+          <h1 id="hi-text">Ava Robinson.</h1>
+          <div class="home-grid">
+            <div id="home-intro">
+              <div class="intro-line"><div class="home-intro-main-text">I am</div>  a human-centered researcher, engineer, designer, and motivated student.</div>
+              <!-- <div class="intro-line"><div class="home-intro-main-text">I learn</div>  about the ways that people interact with technology.</div> -->
+              <div class="intro-line"><div class="home-intro-main-text">I love</div> collaborating, learning, and developing technology to improve people's lives.</div>
+            </div>
+            <div class="hi-bitmoji"><img class="column" id="hi-bitmoji" alt="hi-bitmoji" src="/images/hiBitmoji2.jpeg"></div>
+          </div>
         </div>
-      </div>
+
+        <!----- Projects ----->
+        <div id="projects" class="project-preview-grid">
+          <!-- PROJECTS -->
+
+          <div class="cards">
+            <!-- 1. Project IRL -->
+            <div class="card h-100">
+              <a href="/projects/project-irl.html"><img class="card-img-top" alt="" src="/projects/project-images/snap-temp.PNG"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="/projects/project-irl.html" class="project-card-title">Project IRL</a>
+                </h4>
+                <p class="card-text">Designing and studying co-located AR experiences as an intern @ Snap Inc.</p>
+              </div>
+            </div>
+            <!-- 2. Delta Lab -->
+            <div class="card h-100">
+              <a href="/projects/delta-lab.html" style="text-align: center;"><img class="card-img-top" style="max-height: 200px; width: auto;" src="/images/delta-logo.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="/projects/delta-lab.html" class="project-card-title">Delta Lab</a>
+                </h4>
+                <p class="card-text">Detecting moments of negative self-evaluation while CS students are programming.</p>
+              </div>
+            </div>
+            <!-- 3. HCML -->
+            <div class="card h-100">
+              <a href="/projects/hcml.html"><img class="card-img-top" src="/images/areaChart.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="/projects/hcml.html" class="project-card-title">Human-Centered ML</a>
+                </h4>
+                <p class="card-text">
+                Developing an interactive system that predicts risk for depression via Tweets.
+                </p>
+              </div>
+            </div>
+            <!-- 4. Chairlift -->
+            <div class="card h-100">
+              <a href="/projects/chairlift.html" style="text-align: center;"><img class="card-img-top" style="max-height: 300px; width: auto" src="/images/chairlift-temp-cover.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="/projects/chairlift.html" class="project-card-title">Chairlift</a>
+                </h4>
+                <p class="card-text">
+                  Helping skiers carpool to the mountains through a mobile app.
+                </p>
+              </div>
+            </div>
+            <!-- 5. CureMetrix -->
+            <div class="card h-100">
+              <a href="/projects/curemetrix.html"><img class="card-img-top" src="/images/cureMetrix.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="/projects/curemetrix.html" class="project-card-title">Internal Tracking GUI</a>
+                </h4>
+                <p class="card-text">
+                  Supporting analysis of CureMetrix's internal mammogram analysis algorithm.
+                </p>
+              </div>
+            </div>
+            <!-- 6. Exploring Veganism -->
+            <div class="card h-100">
+              <a href="/projects/exploring-veganism.html"><img class="card-img-top" src="/images/veganism.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="/projects/exploring-veganism.html" class="project-card-title">Exploring Veganism</a>
+                </h4>
+                <p class="card-text">
+                  Visualizing and explaining the benefits of a vegan diet.
+                </p>
+              </div>
+            </div>
+
+        </div>
+
     </div>
+
   </section>
 
-  <!-- <section id="projects" class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Projects.</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-        </div> -->
-                    <!-- Page Content -->
-                    <!-- <div class="container col-lg-8 mx-auto"> -->
-                      <!-- <div class="row">
-                        <div class="col-lg-6 mb-4">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                            <div class="card-body">
-                              <h4 class="card-title">
-                                <a href="#">Project One</a>
-                              </h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-6 mb-4">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                            <div class="card-body">
-                              <h4 class="card-title">
-                                <a href="#">Project Two</a>
-                              </h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-6 mb-4">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                            <div class="card-body">
-                              <h4 class="card-title">
-                                <a href="#">Project Three</a>
-                              </h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-6 mb-4">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                            <div class="card-body">
-                              <h4 class="card-title">
-                                <a href="#">Project Four</a>
-                              </h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-6 mb-4">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                            <div class="card-body">
-                              <h4 class="card-title">
-                                <a href="#">Project Five</a>
-                              </h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-6 mb-4">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                            <div class="card-body">
-                              <h4 class="card-title">
-                                <a href="#">Project Six</a>
-                              </h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div> -->
-                      <!-- /.row -->
-      
-                      <!-- Pagination
-                      <ul class="pagination justify-content-center">
-                        <li class="page-item">
-                          <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                                <span class="sr-only">Previous</span>
-                              </a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">1</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">2</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#">3</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                                <span class="sr-only">Next</span>
-                              </a>
-                        </li>
-                      </ul> -->
-      
-                    <!-- </div> -->
-                    <!-- /.container -->
-      <!-- </div>
-    </div>
-  </section> -->
 
-  <!-- <hr style="width: 80%;"> -->
-  <section id="connect" class="bg-white">
+  <!-- Footer -->
+  <section id="connect" class="connect-footer">
     <div class="container">
         <div class="col-lg-8 mx-auto">
           <h2 style="padding-bottom: 30px;">Connect with me.</h2>

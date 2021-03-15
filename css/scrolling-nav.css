@@ -11,29 +11,67 @@ section {
   padding: 150px 0;
 }
 
+
 body {
-  font-family: Poppins;
-  color: gray;
+  font-family: Circularstd, sans-serif;
+  font-weight: 400;
+  color: black;
 }
 
+@font-face {font-family: "Circular Std Bold"; src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot"); src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff") format("woff"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold") format("svg"); }
+
+
 .nav-link{
-  color: gray;
+  color: #4B8F8C;
+  font-size: 20px;
+}
+
+.nav-item{
+  margin-left:20px;
 }
 
 .nav-link:hover{
-  color: lightcoral;
+  color: #D1B1CB;
 }
 
 .nav-link.active{
-  color: lightcoral;
+  color: #D1B1CB;
 }
 
 .navbar-brand{
-  color: gray;
+  color:#4B8F8C !important;
+  opacity: 100%;
+  width: 100%;
 }
 
+#navbar-logo{
+  height:7%;
+  width: 7%;
+  display: inline-block;
+}
+
+#navbar-logo-active{
+  height:7%;
+  width: 7%;
+  display: none;
+}
+
+#navbar-logo:hover{
+  height:7%;
+  width: 7%;
+  /* visibility: hidden; */
+}
+
+/* #navbar-logo-active:hover{
+  height:7%;
+  width: 7%;
+  display: inline-block;
+} */
+
+
 .navbar-brand:hover{
-  color: lightcoral;
+  /* color: #C3CDE6 !important; */
+  opacity: 100%;
 }
 
 .lead{
@@ -51,17 +89,17 @@ body {
 
 h1{
   font-weight: 700;
-  color: gray;
+  color: black;
 }
 
 .connect{
   font-size:48px;
   padding-right: 30px;
-  color: lightcoral;
+  color: #C3CDE6;
 }
 
 .connect:hover{
-  color: pink;
+  color: #C3CDE6;
 }
 
 #download-resume{
