@@ -47,6 +47,14 @@
     border-radius: 1rem;
 }
 
+.card:hover {
+    position: relative;
+    top: 0;
+    transition: top ease 1s;
+    top: -10px;
+}
+
+
 .project-preview-grid{
     margin-top: max(7%, 100px);
 }
